@@ -1,0 +1,61 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+body {
+    background-image: url('/Users/uzoikejiofor/WebDevThings/HappyHourDrinkMenu/HappyHourDrinkMenu/ImageOfBar.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 20.2 ;
+}
+
+
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+
+
+}
+
+/******************************************
+  /* LAYOUT
+  /*******************************************/
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+
+}
+
+
+/******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: whitesmoke;
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: whitesmoke;
+    background-color: rgba(0, 0, 255, 0.2);
+    padding: 10px;
+    text-align:center;
+}
+
+h3 {
+    color: whitesmoke;
+    background-color: rgba(0, 0, 255, 0.2);
+    padding: 10px;
+    text-align: center;
+}
